@@ -17,32 +17,6 @@ define('APP_TITLE', 'Tiny File Manager');
 
 // --- EDIT BELOW CONFIGURATION CAREFULLY ---
 
-// Auth with login/password
-// set true/false to enable/disable it
-// Is independent from IP white- and blacklisting
-$use_auth = true;
-
-// Login user name and password
-// Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
-// Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
-$auth_users = array(
-    'admin' => '$2y$10$/K.hjNr84lLNDt8fTXjoI.DBp6PpeyoJ.mGwrrLuCZfAwfSAGqhOW', //admin@123
-    'user' => '$2y$10$Fg6Dz8oH9fPoZ2jJan5tZuv6Z4Kp7avtQ9bDfrdRntXtPeiMAZyGO' //12345
-);
-
-// Readonly users
-// e.g. array('users', 'guest', ...)
-$readonly_users = array(
-    'user'
-);
-
-// Global readonly, including when auth is not being used
-$global_readonly = false;
-
-// user specific directories
-// array('Username' => 'Directory path', 'Username2' => 'Directory path', ...)
-$directories_users = array();
-
 // Enable highlight.js (https://highlightjs.org/) on view's page
 $use_highlightjs = true;
 
